@@ -1,3 +1,7 @@
+*{
+	margin:0;
+	padding: 0;
+}
 #botoncitos{
     margin-left:600px;
     margin-top: 50px;
@@ -8,7 +12,7 @@ header{
 h1{
     text-align: center;
     background-color:#04B404;
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Verdana', cursive;
     color:#FFFFFF;
 }
 
@@ -21,6 +25,8 @@ h1{
     margin-top: 50px;
     margin-bottom: 50px;
     border: 3px solid #FFFFFF;
+    /*display: none;*/
+
 }
 
 .linea{
@@ -33,18 +39,18 @@ h1{
 .semiCirculo{
     width: 200px;
     height: 400px;
-    border: 3px solid #555;
+    border: 3px dashed #555;
     -moz-border-radius: 0 100px 100px 0;
     -webkit-border-radius: 0 100px 100px 0;
     border-radius: 0 200px 200px 0;
     position: absolute;
-    margin-top: 130px;
- }
+    margin-top: 100px;
+}
 .semiCirculoDer{
     transform: rotate(180deg);
     margin-left: 793px;
 }
-.circulo {
+.circuloB {
     width: 200px;
     height: 200px;
     -moz-border-radius: 50%;
@@ -53,7 +59,7 @@ h1{
     border: 3px solid #555;
     position: absolute;
     margin-left:430px;
-    margin-top: 240px;
+    margin-top: 200px;
 }
 .circuloChiquito{
     width: 100px;
@@ -64,11 +70,11 @@ h1{
     border: 3px solid #555;
     position: absolute;
     margin-left: 69px;
-    margin-top: 290px;
+    margin-top: 250px;
 }
 .circuloChiquitoDer{
     margin-left: 803px;
- }
+}
 .lineaInclinada{
     width: 0px;
     height: 125px;
@@ -76,12 +82,12 @@ h1{
     position: absolute;
     margin-left: 63px;
     transform: rotate(110deg);
-    margin-top: 207px;
+    margin-top: 165px;
 }
 .linea2inclinada{
     height: 129px;
     transform: rotate(68deg);
-    margin-top: 354px;
+    margin-top: 312px;
 }
 .lineaCirculo{
     width: 0px;
@@ -89,25 +95,24 @@ h1{
     border: 1px solid #555;
     position:absolute;
     margin-left:120px;
-    margin-top: 291px;
+    margin-top: 252px;
 }
 .lineaCirculoDer{
     margin-left:856px;
-
 }
 
 .lineaInclinadaDer{
     margin-left: 924px;
-    margin-top: 345px;
+    margin-top: 303px;
     height: 152px;
 }
 .linea2inclinadaDer{
     transform: rotate(66deg);
     margin-left: 927px;
-    margin-top: 184px;
+    margin-top: 145px;
     height: 150px;
 }
-.balon{
+.balonBasket{
     width: 20px;
     height: 20px;
     -moz-border-radius: 50%;

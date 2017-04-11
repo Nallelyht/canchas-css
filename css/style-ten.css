@@ -1,0 +1,96 @@
+.sec {
+	width: 62%;
+	height: 310px;
+}
+.canchaTennis {
+	width: 79.5%;
+	height: 310px;
+	background-color: green;
+	padding-top: 5px;
+	padding-left: 5px;
+	position: relative;
+}
+.largoDer {
+	height: 50px;
+	width: 300px;
+	border: 1px solid white;
+  float: left;
+}
+
+.largoIzq {
+	height: 50px;
+	width: 300px;
+	border: 1px solid white;
+  float: left;
+}
+
+.altoIzq {
+	position: absolute;
+	height: 200px;
+	width: 149px;
+	border: 1px solid white;
+	top: 56px;
+}
+
+.altoDer {
+	position: absolute;
+	height: 200px;
+	width: 149px;
+	border: 1px solid white;
+	left: 458px;
+	top: 56px;
+}
+
+.medioAltoIzqArriba {
+	position: absolute;
+	height: 100px;
+	width: 150px;
+	border: 1px solid white;
+	left: 155px;
+	top: 56px;
+}
+
+.medioAltoIzqAbajo {
+	position: absolute;
+	height: 100px;
+	width: 150px;
+	border: 1px solid white;
+	left: 307px;
+	top: 56px;
+}
+
+.medioAltoDerArriba{
+	position: absolute;
+	height: 99px;
+	width: 150px;
+	border: 1px solid white;
+	left: 155px;
+	top: 157px;
+}
+
+.medioAltoDerAbajo{
+	position: absolute;
+	height: 99px;
+	width: 150px;
+	border: 1px solid white;
+	left: 307px;
+	top: 157px;
+}
+
+.largoDerAbajo {
+	position: absolute;
+	height: 50px;
+	width: 300px;
+	border: 1px solid white;
+	float: left;
+	top: 257px;
+}
+
+.largoIzqAbajo {
+	position: absolute;
+	height: 50px;
+	width: 300px;
+	border: 1px solid white;
+	top: 257px;
+	left: 307px;
+}
